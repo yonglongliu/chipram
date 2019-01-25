@@ -1,0 +1,151 @@
+####################################################################
+# list of board.
+# if define new board, please add new item to here,
+# and add xxxx.h(board config header) to include/configs/
+#                       ARCH CPU BOARD          VENDOR    SOC
+####################################################################
+sp9850ka_1h10_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp9630 spreadtrum sc9630
+
+sp9850ka_2c10_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp9630 spreadtrum sc9630
+
+sp9850ka_2c20_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp9630 spreadtrum sc9630
+
+sp9850ka_2c30_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp9630 spreadtrum sc9630
+
+sp7731e_1h10_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp7731e_1h10 spreadtrum pike2
+
+sp7731e_1h20_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp7731e_1h20 spreadtrum pike2
+
+sp7731e_14c20_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp7731e_14c20 spreadtrum pike2
+
+sp7731e_14c10_config        : preconfig
+	@$(MKCONFIG) $@ arm armv7 sp7731e_14c10 spreadtrum pike2
+
+sp9850kh_1h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9850kh_1h10 spreadtrum sharklj1
+
+sp9850kh_2c20_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9850kh_2c20 spreadtrum sharklj1
+
+j1fpga_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 j1fpga spreadtrum sharklj1
+
+sp9862_haps_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 whalek_haps spreadtrum whalek
+
+sp9835_haps_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9835_haps spreadtrum sharkle
+
+sp9820e_1h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_1h10 spreadtrum sharkle
+
+sp9820e_15c10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_15c10 spreadtrum sharkle
+
+sp9820e_13c10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_13c10 spreadtrum sharkle
+
+sp9820e_5c10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_5c10 spreadtrum sharkle
+
+sp9820e_2h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_2h10 spreadtrum sharkle
+
+sp9820e_2c10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_2c10 spreadtrum sharkle
+
+sp9832e_1h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9832e_1h10 spreadtrum sharkle
+
+sp9832e_1h10_32b_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9832e_1h10_32b spreadtrum sharkle
+
+sp9832e_2c10_32b_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9832e_2c10_32b spreadtrum sharkle
+
+sp9832e_10c10_32b_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9832e_10c10_32b spreadtrum sharkle
+
+sp9850e_1h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9850e_1h10 spreadtrum sharkle
+
+sp9820e_64b_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9820e_64b spreadtrum sharkle
+
+sp9853i_1h10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_1h10 spreadtrum isharkl2
+
+sp9853i_9c10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_9c10 spreadtrum isharkl2
+
+sp9853i_10c10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_10c10 spreadtrum isharkl2
+
+sp9853i_2h10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_2h10 spreadtrum isharkl2
+
+sp9853i_3c10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_3c10 spreadtrum isharkl2
+
+sp9853i_1h10_vmm_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_1h10 spreadtrum isharkl2
+
+sp9853i_9c10_vmm_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_9c10 spreadtrum isharkl2
+
+sp9853i_10c10_vmm_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_10c10 spreadtrum isharkl2
+
+sp9853i_2h10_vmm_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_2h10 spreadtrum isharkl2
+
+sp9853i_3c10_vmm_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9853i_3c10 spreadtrum isharkl2
+
+sp9861e_1h10_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_1h10 spreadtrum iwhale2
+
+sp9861e_1h10_vmm_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_1h10_vmm spreadtrum iwhale2
+
+sp9861e_1h11_vmm_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_1h11_vmm spreadtrum iwhale2
+
+sp9861e_3h10_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_3h10 spreadtrum iwhale2
+
+sp9861e_3h10_vmm_config : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_3h10_vmm spreadtrum iwhale2
+
+sp9861g_1h10emmc_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861g_1h10emmc spreadtrum iwhale2
+
+sp9861e_2h10_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_2h10 spreadtrum iwhale2
+
+sp9861e_2h10_2705_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_2h10_2705 spreadtrum iwhale2
+
+sp9861e_1h11_config     : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_1h11 spreadtrum iwhale2
+
+sp9861e_2h10_vmm_config	: preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_2h10_vmm spreadtrum iwhale2
+
+sp9861e_2h10_2705_vmm_config : preconfig
+	@$(MKCONFIG) $@ x86 bullhill sp9861e_2h10_2705_vmm spreadtrum iwhale2
+
+sp9855a_haps_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sharkl3_haps spreadtrum sharkl3
+
+sp9863a_1h10_config : preconfig
+	@$(MKCONFIG) $@ arm armv8 sp9863a_1h10 spreadtrum sharkl3
+
+
